@@ -95,9 +95,9 @@ class DrawPixel {
   
   
   const drawPixel = new DrawPixel();
-  drawPixel.writePixel([[-0.3, 0.8], [-0.7, 0.8], [-0.7, 0.3], [-0.3, 0.3], [-0.3, 0.5], [-0.5, 0.5]]);
+  drawPixel.writePixel([[0.0, 0.8], [-0.4, 0.8], [-0.4, 0.3], [0.0, 0.3], [0.0, 0.5], [-0.2, 0.5]]);
   drawPixel.readPixel('LINE_STRIP');
-  drawPixel.writePixel([[-0.1, 0.8], [-0.1, 0.3], [0.3, 0.3]]);
+  drawPixel.writePixel([[0.5, 0.8],[0.1, 0.8], [0.1, 0.3], [0.5, 0.3]]);
   drawPixel.readPixel('LINE_STRIP');
   drawPixel.drawCircle([0.0, -0.4], 0.5, 40);
   drawPixel.drawCircle([0.0, -0.4], 0.4, 10);
