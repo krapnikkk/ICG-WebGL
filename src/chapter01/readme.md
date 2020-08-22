@@ -165,5 +165,5 @@
     OpenGL ES 1.1 基于 OpenGL 1.5
     OpenGL ES 2.0 基于 OpenGL 2.0
 
-    WebGL是运行在现代Web浏览器上的OpenGL ES 2.0的JavaScript接口。 
+    WebGL1.0是运行在现代Web浏览器上的OpenGL ES 2.0的JavaScript接口。 
 
